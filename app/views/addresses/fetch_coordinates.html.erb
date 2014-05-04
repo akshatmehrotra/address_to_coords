@@ -1,5 +1,8 @@
 <h1>Coordinates Lookup</h1>
 
+<!-- <h2>User entered <%= params[:user_address] %></h2> -->
+<!-- <%= @address = params[:user_address] %> -->
+
 <dl>
   <dt>Address:</dt>
   <dd><%= @address %></dd>
@@ -13,3 +16,8 @@
   <dt>Longitude:</dt>
   <dd><%= @longitude %></dd>
 </dl>
+
+<form>
+Address: <input type="text" name="user_address">
+<input type="submit">
+</form>
